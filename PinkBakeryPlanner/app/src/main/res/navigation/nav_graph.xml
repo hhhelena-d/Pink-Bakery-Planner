@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.pinkbakeryplanner.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/addRecipeFragment"
+        android:name="com.example.pinkbakeryplanner.AddRecipeFragment"
+        android:label="fragment_add_recipe"
+        tools:layout="@layout/fragment_add_recipe" />
+    <fragment
+        android:id="@+id/recipeDetailsFragment"
+        android:name="com.example.pinkbakeryplanner.RecipeDetailsFragment"
+        android:label="fragment_recipe_details"
+        tools:layout="@layout/fragment_recipe_details" />
+    <fragment
+        android:id="@+id/scalerFragment"
+        android:name="com.example.pinkbakeryplanner.ScalerFragment"
+        android:label="fragment_scaler"
+        tools:layout="@layout/fragment_scaler" />
+    <fragment
+        android:id="@+id/shoppingListFragment"
+        android:name="com.example.pinkbakeryplanner.ShoppingListFragment"
+        android:label="fragment_shopping_list"
+        tools:layout="@layout/fragment_shopping_list" />
+</navigation>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PinkBakeryPlanner" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <item name="colorSecondary">@color/pink_secondary</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <item name="android:colorBackground">@color/pink_background</item>
+        <item name="colorSurface">@color/pink_surface</item>
+
+        <item name="android:windowBackground">@color/pink_background</item>
+
+
+    </style>
+
+    <style name="Theme.PinkBakeryPlanner" parent="Base.Theme.PinkBakeryPlanner" />
+</resources>

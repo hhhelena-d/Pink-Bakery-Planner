@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/addRecipeFragment"
+        android:icon="@drawable/ic_add"
+        android:title="Add" />
+
+    <item
+        android:id="@+id/recipeDetailsFragment"
+        android:icon="@drawable/ic_details"
+        android:title="Details" />
+
+    <item
+        android:id="@+id/scalerFragment"
+        android:icon="@drawable/ic_scale"
+        android:title="Scale" />
+
+    <item
+        android:id="@+id/shoppingListFragment"
+        android:icon="@drawable/ic_cart"
+        android:title="List" />
+
+</menu>
